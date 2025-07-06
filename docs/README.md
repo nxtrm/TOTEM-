@@ -1,0 +1,1 @@
+### The same buildguide can be found on the original TOTEM repository, as there is no difference in the way that the keyboard is built. Just stick to the WIRELESS TOTEM variant when possible.

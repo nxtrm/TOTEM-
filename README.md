@@ -4,11 +4,11 @@
   <img alt="TOTEM logo" src="/docs/images/TOTEM_logo_dark.svg">
 </picture>
 
-<h1 align="center">T O T E M</h1>
+<h1 align="center">T O T E M  + +</h1>
 
-TOTEM is a 38 key column-staggered choc split keyboard. It is meant to be used with a [Seeed Studio XIAO nRF52840 BLE](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) or [XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html).
-It was created for the SEEED XIAO keyboard contest.\
-[Here](https://www.hackster.io/geist/totem-a-tiny-splitkeyboard-with-splay-cb2e43) you can read about the process of making it.
+TOTEM++ is a 50 key column-staggered choc split keyboard. It is meant to be used with a [Seeed Studio XIAO nRF52840 BLE](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html). 
+This is an iteration on the TOTEM project by [GEIST](https://github.com/GEIGEIGEIST/TOTEM/tree/main) for those who like the design of the keyboard, but would like to have a few extra keys to ease the transition from larger keyboards.
+[Here](https://www.hackster.io/geist/totem-a-tiny-splitkeyboard-with-splay-cb2e43) you can read about the process of making the original board.
 
 ***
 
@@ -20,7 +20,7 @@ It was created for the SEEED XIAO keyboard contest.\
 
 ## PCB
 
-[Here](/PCB/) you can find the KiCad files and Gerbers for the TOTEM.
+[Here](/PCB/) you can find the KiCad files for TOTEM++.
 
 ***
 
@@ -32,47 +32,37 @@ You can use the TOTEM without a case, but [here](/case/) you can find one I made
 
 ## BUILD GUIDE
 
-The build guide for the TOTEM can be found [here](/docs/buildguide.md).
+The build guide for the TOTEM can be found [here](/docs/buildguide.md) (works for TOTEM++).
 
 ***
 
 ## FIRMWARE
 
-[QMK (VIAL) precompiled](/firmware/QMK/) or [QMK (VIAL) source](/firmware/QMK/VIAL_source/) for the TOTEM (wired using the XIAO RP2040)\
-[ZMK precompiled](/firmware/ZMK/) or [ZMK source (outdated)](https://github.com/GEIGEIGEIST/zmk-config-totem) for the TOTEM (wireless using the XIAO BLE)
+[ZMK precompiled](/firmware/) or [ZMK source (outdated)](https://github.com/nxtrm/zmk-config) for the TOTEM (wireless using the XIAO BLE)
 
 ***
 
-## BUY
-
-You can buy TOTEM kits and finished builds on [keeb.supply](https://keeb.supply/products/geist-totem) (worldwide shipping)
-
-***
 
 ## PHOTOS
 
-This is the TOTEM in a black resin case
+This is TOTEM++ in a matte black PLA case.
 
-![TOTEM black resin](/docs/images/TOTEM_black_perspective.jpg)\
-![TOTEM black resin](/docs/images/TOTEM_black_top.jpg)\
-![TOTEM black resin](/docs/images/TOTEM_black_bottom.jpg)
+![TOTEM matte black](/docs/images/++_black.jpg)\
 
-This is the TOTEM with a black resin tenting bottom plate
-
-![TOTEM black resin tenting](/docs/images/TOTEM_black_tenting_example.jpg)\
-[Video by *Wolfgang's Channel* showing the tenting system in action](https://youtu.be/rvM2BthjEI4?si=mTJVdPeZstshnDyo)
 
 ***
 
-## CREDITS
 
 ### INSPIRATION
 
-I've added the additional pinky key to make the TOTEM compatible with the layout boards like the [Balbuzard](https://github.com/brow/balbuzard) by [Tom Brow](https://github.com/brow) and the [Osprette](https://github.com/smores56/osprette) by [Sam Mohr](https://github.com/smores56) use, where you put the keybinding of the top left and right keys on an outer pinky key.
+When i was researching the ergo keyboard market, I couldnt find a keyboard better looking (and cheaper to build) than the TOTEM, but with 38 keys, it was too overwhelming to migrate to it from my TKL keyboard.
+To ease this transition, I added an extra row of keys (12 in total) to the design.
 
-### HELP FIXING THINGS
 
-People who helped me create this board and fix stuff
+
+## CREDITS FOR THE ORIGINAL TOTEM PROJECT
+
+[GEIST](https://github.com/GEIGEIGEIST) for creating the TOTEM keyboard.
 
 #### PCB
 - [Marco "Bob"](https://github.com/GroooveBob)
@@ -88,4 +78,4 @@ People who helped me create this board and fix stuff
 - [pekudzu](https://github.com/pekudzu)
 
 
-If you build a TOTEM I would be pretty happy to see some pictures. And if you want to leave me a tip you can do this [here](https://ko-fi.com/geigeigeist) (but please don't feel pressured)
+If you build a TOTEM I would be pretty happy to see some pictures. And if you want to leave the original creator of the keyboard (GEIST) a tip you can do this [here](https://ko-fi.com/geigeigeist) (but please don't feel pressured)
