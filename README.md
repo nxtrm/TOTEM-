@@ -14,7 +14,7 @@ This is an iteration on the TOTEM project by [GEIST](https://github.com/GEIGEIGE
 
 ## LAYOUT
 
-![TOTEM layout](/docs/images/TOTEM_layout.svg)
+![TOTEM++ layout](/docs/images/++_layout.svg)
 
 ***
 
@@ -38,7 +38,7 @@ The build guide for the TOTEM can be found [here](/docs/buildguide.md) (works fo
 
 ## FIRMWARE
 
-[ZMK precompiled](/firmware/) or [ZMK source (outdated)](https://github.com/nxtrm/zmk-config) for the TOTEM (wireless using the XIAO BLE)
+[ZMK precompiled](/firmware/) or [ZMK source (recommended)](https://github.com/nxtrm/zmk-config) for the TOTEM (wireless using the XIAO BLE)
 
 ***
 
@@ -48,6 +48,7 @@ The build guide for the TOTEM can be found [here](/docs/buildguide.md) (works fo
 This is TOTEM++ in a matte black PLA case.
 
 ![TOTEM matte black](/docs/images/++_black.jpg)\
+![TOTEM matte black](/docs/images/++_black_side.jpg)\
 
 
 ***
