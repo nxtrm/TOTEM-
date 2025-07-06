@@ -14,7 +14,7 @@ This is an iteration on the TOTEM project by [GEIST](https://github.com/GEIGEIGE
 
 ## LAYOUT
 
-![TOTEM++ layout](/docs/images/++_layout.svg)
+![TOTEM++ layout](/docs/images/++_layout.jpg)
 
 ***
 
